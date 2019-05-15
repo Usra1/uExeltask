@@ -1,0 +1,156 @@
+.icon .fa {
+    font-size: 40px;
+    color: #3ecf8e;
+    margin-top: 50px;
+    background-color: #e3fff2;
+    /* width: 21px; */
+    /* height: 20px; */
+    border-radius: 50%;
+    display: inline-block;
+    padding: 50px;
+}
+
+.icon2 .fa {
+    font-size: 40px;
+    color: #3ecf8e;
+    margin-top: 50px;
+    background-color: #e3fff2;
+    /* width: 21px; */
+    /* height: 20px; */
+    border-radius: 50%;
+    /* display: inline-block; */
+    padding: 40px;
+    float: left;
+    margin-left: 100px;
+    border: 1px solid #3ecf8e;
+}
+
+.icon2 .fa:hover {
+    background-color: #3ecf8e;
+    color: white;
+}
+
+.icon2 .fas {
+    font-size: 40px;
+    color: #3ecf8e;
+    margin-top: 50px;
+    background-color: #e3fff2;
+    /* width: 21px; */
+    /* height: 20px; */
+    border-radius: 50%;
+    /* display: inline-block; */
+    padding: 40px;
+    float: left;
+    margin-left: 100px;
+    border: 1px solid #3ecf8e;
+}
+
+.icon2 .fas:hover {
+    background-color: #3ecf8e;
+    color: white;
+}
+
+#div-hover:hover {
+    box-shadow: 5px 5px 5px 5px#ededed;
+}
+
+.slick-prev, .slick-arrow {
+    opacity: 0;
+}
+
+.slick-slide {
+    transition: all ease-in-out .3s;
+    opacity: .2;
+}
+
+.slick-active {
+    opacity: 1;
+}
+
+.slick-current {
+    opacity: 1;
+}
+
+/* Dots */
+
+.slick-dotted.slick-slider {
+    margin-bottom: 30px;
+}
+
+.slick-dots {
+    position: absolute;
+    bottom: -25px;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.slick-dots li {
+    position: relative;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+    padding: 0;
+    cursor: pointer;
+}
+
+.slick-dots li button {
+    font-size: 0;
+    line-height: 0;
+    display: block;
+    width: 10px;
+    height: 10px;
+    padding: 5px;
+    cursor: pointer;
+    color: green;
+    border-radius: 50%;
+    outline: none;
+    background: #3ecf8e;
+}
+
+/* Slider */
+
+.slider {
+    display: none;
+    background-position: relative;
+    width: 250px;
+    height: 250px;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+}
+
+.show .slider {
+    display: inline-block;
+    background-color: #3ecf8e;
+    position: absolute;
+    opacity: 0.8;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-top: 35px;
+    margin-left: 35px;
+}
+
+.slider-p{
+    color: #fff;
+    font-size: 16px;
+    font-style: italic;
+    margin-bottom: 10px;
+    margin-top: 60px;
+}
+.slider-h2{
+    font-size: 25px;
+    color: #fff;
+    display: block;
+    font-weight: 600;
+}
+.lightbox{
+    opacity: 0.8;
+    background-repeat: no-repeat;
+}
