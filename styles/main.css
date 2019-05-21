@@ -1,3 +1,4 @@
+
 .icon .fa {
     font-size: 40px;
     color: #3ecf8e;
@@ -506,78 +507,90 @@ input[type=submit]:hover {
     color: #28ca81;
     border: 1px solid green;
 }
-.footer{
+
+.footer {
     width: 100%;
     float: left;
     height: 530px;
-    background: #180e29; 
+    background: #180e29;
     color: white;
     margin-top: 200px;
     font-family: 'Poppins', sans-serif;
 }
-.footer-logo{
+
+.footer-logo {
     width: 20%;
     float: left;
     margin-top: 190px;
 }
-.company-info{
+
+.company-info {
     width: 19%;
     margin-left: 200px;
     margin-top: 120px;
     line-height: 2;
 }
-.product-info{
+
+.product-info {
     width: 19%;
     margin-left: 420px;
     margin-top: -208px;
     float: left;
     line-height: 2;
 }
-.download-info{
+
+.download-info {
     width: 19%;
     margin-top: -208px;
     margin-left: 650px;
     line-height: 2;
-   
 }
-.subscribe-info{
+
+.subscribe-info {
     width: 19%;
     float: right;
     margin-top: -250px;
     margin-right: 110px;
     line-height: 2;
 }
-#footer-h2{
+
+#footer-h2 {
     color: #fff;
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 30px;
     margin-left: 80px;
 }
-#footer-p{
+
+#footer-p {
     margin-right: -80px;
 }
-.menu{
+
+.menu {
     list-style: none;
     margin: 0;
     padding: 0;
-
 }
-.menu-li{
+
+.menu-li {
     text-align: center;
     margin-left: 100px;
 }
-.menu-a{
+
+.menu-a {
     text-decoration-line: none;
     color: white;
     text-align: center;
 }
-.menu-a:hover{
+
+.menu-a:hover {
     color: #28ca81;
 }
-.subscribe-area{
+
+.subscribe-area {
     margin-left: 40px;
 }
+
 .subscribe-area input[type=email] {
     background: #24153c;
     border: 1px solid #fff;
@@ -588,6 +601,7 @@ input[type=submit]:hover {
     width: 200px;
     margin-left: -10px;
 }
+
 .subscribe-area span i {
     right: 122px;
     width: -10px;
@@ -602,22 +616,23 @@ input[type=submit]:hover {
     margin-top: -54px;
     margin-left: 209px;
 }
-.copyright{
+
+.copyright {
     width: 100%;
     float: left;
     width: 100%;
     float: left;
-    margin-top:20px;
+    margin-top: 20px;
     text-align: center;
     border-top: 1px solid #3c1f6e;
     margin-top: 30px;
-
 }
-.copyright-p{
+
+.copyright-p {
     color: #3ecf8e;
     padding-top: 30px;
-
 }
-#copyright-a{
+
+#copyright-a {
     color: #ddd;
 }
