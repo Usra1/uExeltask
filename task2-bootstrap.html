@@ -13,8 +13,12 @@
     <link rel="stylesheet" type="text/css" href="./bootstrap-css/owl.theme.css">
     <link rel="stylesheet" type="text/css" href="./bootstrap-css/magnific-popup.css">
     <link rel="stylesheet" type="text/css" href="./bootstrap-css/slick.css">
+    <link rel="stylesheet" type="text/css" href="./styles/nivo-lightbox.css">
+    <link rel="stylesheet" type="text/css" href="./bootstrap-css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./styles/magnific-popup.css">
 
 
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script src="./scripts/slick.js" type="text/javascript" charset="utf-8"></script>
     <script src="./scripts/main.js" type="text/javascript" charset="utf-8"></script>
     <script src="./scripts/jquery.easing.min.js" type="text/javascript" charset="utf-8"></script>
@@ -24,7 +28,7 @@
     <script src="./scripts/owl.carousel.js"></script>
     <script src="./scripts/nivo-lightbox.js" type="text/javascript" charset="utf-8"></script>
     <script src="./scripts/bootstrap.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script> -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
 
@@ -176,10 +180,9 @@
                     Producing long lasting organic SEO results for<br> brand of different kinds for more than a
                     decade.<br> we understands that your's.</p>
             </div>
-        </div>
-
-        <div class="row" id="row-showcase">
-            <div class="col-md-12">
+        </div>  
+        <div class="row">
+            <div class="col-md-12" id="col-showcase">
                 <h1 id="showcase-h1">Recent Work
                 </h1>
                 <p id="showcase-p">
@@ -187,10 +190,318 @@
                     mollitia
                     repudiandae eligendi.</p>
             </div>
-            
-        </div>
+            <div id="demos" style="margin-top: 400px;">
+                <div class="owl-carousel owl-theme">
+                    <div class="item" onmouseout="removeClass(this, 'show');" onmouseover="addClass(this, 'show');">
+                        <img src="images/slide1.jpg">
+                        <div class="slider">
+                            <p class="slider-p">Icon , Web</p>
+                            <h2 class="slider-h2">Redesign Slack</h2>
+                            <a class="lightbox" href="images/slide2.jpg"><i class="lni-zoom-in"
+                                    style="color: #fff;font-size: 20px;"></i></a> &nbsp;&nbsp;
+                            <a href="#"><i class="lni-link"
+                                    style="color: #fff;font-size: 20px; margin-top: 10px;margin-right:10px;"></i></a>
+                        </div>
+                    </div>
+                    <div class="item" onmouseout="removeClass(this, 'show');" onmouseover="addClass(this, 'show');">
+                        <img src="images/slide2.jpg">
+                        <div class="slider">
+                            <p class="slider-p">Icon , Web</p>
+                            <h2 class="slider-h2">Redesign Slack</h2>
+                            <a class="lightbox" href="images/slide1.jpg"><i class="lni-zoom-in"
+                                    style="color: #fff;font-size: 20px;"></i></a>&nbsp;&nbsp;
+                            <a href="#"><i class="lni-link" style="color: #fff;font-size: 20px;"></i></a>
+                        </div>
+                    </div>
+                    <div class="item" onmouseout="removeClass(this, 'show');" onmouseover="addClass(this, 'show');">
+                        <img src="images/slide3.jpg">
+                        <div class="slider">
+                            <p class="slider-p">Icon , Web</p>
+                            <h2 class="slider-h2">Redesign Slack</h2>
+                            <a class="lightbox" href="images/slide2.jpg"><i class="lni-zoom-in"
+                                    style="color: #fff;font-size: 20px;"></i></a>&nbsp;&nbsp;
+                            <a href="#"><i class="lni-link" style="color: #fff;font-size: 20px;"></i></a>
+                        </div>
+                    </div>
+                    <div class="item" onmouseout="removeClass(this, 'show');" onmouseover="addClass(this, 'show');">
+                        <img src="images/slide4.jpg">
+                        <div class="slider">
+                            <p class="slider-p">Icon , Web</p>
+                            <h2 class="slider-h2">Redesign Slack</h2>
+                            <a class="lightbox" href="images/slide3.jpg"><i class="lni-zoom-in"
+                                    style="color: #fff;font-size: 20px;"></i></a> &nbsp;&nbsp;
+                            <a href="#"><i class="lni-link" style="color: #fff;font-size: 20px;"></i></a>
+                        </div>
+                    </div>
+                    <div class="item" onmouseout="removeClass(this, 'show');" onmouseover="addClass(this, 'show');">
+                        <img src="images/slide5.jpg">
+                        <div class="slider">
+                            <p class="slider-p">Icon , Web</p>
+                            <h2 class="slider-h2">Redesign Slack</h2>
+                            <a class="lightbox" href="images/slide5.jpg"><i class="lni-zoom-in"
+                                    style="color: #fff;font-size: 20px;"></i></a> &nbsp;&nbsp;
+                            <a href="#"><i class="lni-link" style="color: #fff;font-size: 20px;"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
     </div>
-           
+        <div class="row" id="price-row">
+            <div class="col-md-12">
+                <h1 id="price-h1">Pricing Plans</h1>
+                <p id="price-p">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam <br> blanditiis, vel
+                    accusamus quo</p>
+            </div>
+            <div class="col-md-3" id="price-outer-div">
+                <h3 class="price-h3">FREE</h3>
+                <span class="price-span">$</span>
+                <h1 class="price-h1"> 00</h1>
+                <ul class="price-ul">
+                    <li class="price-li">Free Installation</li>
+                    <li class="price-li">500 MB Storage</li>
+                    <li class="price-li">Single User</li>
+                    <li class="price-li">5 GB Bandwidth</li>
+                    <li class="price-li">Mininal Features</li>
+                    <li class="price-li">No Dashboard</li>
+                </ul><br>
+                <button id="price-button">PURCHASE</button>
+            </div>
+            <div class="col-md-3" id="price-outer-div">
+                <h3 class="price-h3">STANDARD</h3>
+                <span class="price-span">$</span>
+                <h1 class="price-h1"> 19.99</h1>
+                <ul class="price-ul">
+                    <li class="price-li">Free Installation</li>
+                    <li class="price-li">500 MB Storage</li>
+                    <li class="price-li">Single User</li>
+                    <li class="price-li">5 GB Bandwidth</li>
+                    <li class="price-li">Mininal Features</li>
+                    <li class="price-li">No Dashboard</li>
+                </ul><br>
+                <button id="price-button">PURCHASE</button>
+            </div>
+            <div class="col-md-3" id="price-outer-div">
+                <h3 class="price-h3">BUSINESS</h3>
+                <span class="price-span">$</span>
+                <h1 class="price-h1">29.99</h1>
+                <ul class="price-ul">
+                    <li class="price-li">Free Installation</li>
+                    <li class="price-li">500 MB Storage</li>
+                    <li class="price-li">Single User</li>
+                    <li class="price-li">5 GB Bandwidth</li>
+                    <li class="price-li">Mininal Features</li>
+                    <li class="price-li">No Dashboard</li>
+                </ul><br>
+                <button id="price-button">PURCHASE</button>
+            </div>
+        </div>
+
+        <div class="row" id="row-video">
+            <div class="col-md-12" id="video-section">
+                <div class="video-section-play">
+                    <a id="video-play-button" class="videoLink"
+                        href="https://www.youtube.com/watch?v=Y4fodpIwal8&list=RDXCElIIYx_8s&index=13">
+                        <span></span></a>
+                </div>
+                <div class="video-slider">
+                    <div class="mySlides" onmouseout="removeClass(this, 'show');" onmouseover="addClass(this, 'show');">
+                        <q>Appropriately implement one-to-one catalysts for change <br> vis-a-vis wireless catalysts for
+                            change.
+                            Enthusiastically architect <br> adaptive e-tailers after sustainable total linkage.
+                            Appropriately
+                            <br> implement one-to-one catalysts for change</q>
+                        <h5 class="author">Tahmina Anny ; <span class="author"> UIdeck Customer</span></h5>
+                        <img src="images/quoteimage.png">
+                    </div>
+                    <div class="mySlides" onmouseout="removeClass(this, 'show');" onmouseover="addClass(this, 'show');">
+                        <q>Appropriately implement one-to-one catalysts for change <br> vis-a-vis wireless catalysts for
+                            change.
+                            Enthusiastically architect <br> adaptive e-tailers after sustainable total linkage.
+                            Appropriately
+                            <br> implement one-to-one catalysts for change</q>
+                        <h5 class="author">Tahmina Anny ; <span class="author"> Example Slider</span></h5>
+                        <img src="images/quoteimage.png">
+                    </div>
+                    <div class="mySlides" onmouseout="removeClass(this, 'show');" onmouseover="addClass(this, 'show');">
+                        <q>Appropriately implement one-to-one catalysts for change <br> vis-a-vis wireless catalysts for
+                            change.
+                            Enthusiastically architect <br> adaptive e-tailers after sustainable total linkage.
+                            Appropriately
+                            <br> implement one-to-one catalysts for change</q>
+                        <h5 class="author">Tahmina Anny ; <span class="author"> Example Slider 2</span></h5>
+                        <img src="images/quoteimage.png">
+                    </div>
+
+                </div>
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+            </div>
+        </div>
+
+        <div class="row" id="contact-row">
+            <div class="col-md-12">
+                <h1 id="price-h1">Get In Touch</h1>
+                <p id="price-p">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam <br> blanditiis, vel
+                    accusamus quo</p>
+            </div>
+            <div class="col-md-12" id="contact-form">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="fname" name="name" placeholder="Name" required
+                            data-error="Please enter your name">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject"
+                            required data-error="Please enter subject">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <input type="email" class="form-control" id="email" name="email" placeholder="Email" required
+                            data-error="Please enter your email">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="budget" name="budget" placeholder="Budget" required
+                            data-error="Please enter your Budget">
+                    </div>
+                </div>
+                <div class="col-md-12" id="textarea-class">
+                    <div class="form-group">
+                        <textarea id="message" placeholder="Write Message"></textarea>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <input type="submit" value="SUBMIT">
+                </div>
+
+            </div>
+            <div class="col-md-6">
+                <img src="images/image3.jpg">
+
+            </div>
+
+        </div>
+        <div class="row" id="footer">
+            <div class="col-md-12">
+                <div class="col-md-2">
+                    <img src="images/footer-logo.png" id="footer-image">
+
+                </div>
+                <div class="col-md-2" id="col-info">
+                    <h2 id="footer-h2">Company</h2>
+                    <ul class="menu">
+                        <li class="menu-li"><a href="#" class="menu-a">- About Us</a></li>
+                        <li class="menu-li"><a href="#" class="menu-a">- Career</a></li>
+                        <li class="menu-li"><a href="#" class="menu-a">- Blog</a></li>
+                        <li class="menu-li"><a href="#" class="menu-a">- Press</a></li>
+                    </ul>
+
+                </div>
+                <div class="col-md-2" id="col-info">
+                    <h2 id="footer-h2">Product</h2>
+                    <ul class="menu">
+                        <li class="menu-li"><a href="#" class="menu-a">- Customer Service</a></li>
+                        <li class="menu-li"><a href="#" class="menu-a">- Enterprise</a></li>
+                        <li class="menu-li"><a href="#" class="menu-a">- Price</a></li>
+                        <li class="menu-li"><a href="#" class="menu-a">- Scurity</a></li>
+                        <li class="menu-li"><a href="#" class="menu-a">- Why SLICK?</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2" id="col-info">
+                    <h2 id="footer-h2">Download App</h2>
+                    <ul class="menu">
+                        <li class="menu-li"><a href="#" class="menu-a">- Android App</a></li>
+                        <li class="menu-li"><a href="#" class="menu-a">- IOS App</a></li>
+                        <li class="menu-li"><a href="#" class="menu-a">- Windows App</a></li>
+                        <li class="menu-li"><a href="#" class="menu-a">- Play Store</a></li>
+                        <li class="menu-li"><a href="#" class="menu-a">- IOS Store</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2" id="col-info">
+                    <h2 id="footer-h2">Subscribe Now</h2>
+                    <p id="footer-p">Appropriately implement catalysts
+                        <br> for change visa wireless catalysts <br> for change.
+                    </p>
+                    <div class="subscribe-area">
+                        <input type="email" placeholder="Enter Email">
+                        <span><i class="lni-chevron-right"></i></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12" id="copyright">
+                <p class="copyright-p">Crafted by <a href="http://uideck.com" id="copyright-a">UIdeck</a></p>
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <script>
+        $(document).ready(function () {
+            var owl = $('.owl-carousel');
+            owl.owlCarousel({
+                items: 4,
+                loop: true,
+                margin: 10,
+                autoplay: true,
+                autoplayTimeout: 1000,
+                autoplayHoverPause: true
+            });
+            $('.play').on('click', function () {
+                owl.trigger('play.owl.autoplay', [1000])
+            })
+            $('.stop').on('click', function () {
+                owl.trigger('stop.owl.autoplay')
+            })
+        })
+    </script>
+    <script>
+        function addClass(o, c) {
+            var re = new RegExp("(^|\\s)" + c + "(\\s|$)", "g")
+            if (re.test(o.className)) return
+            o.className = (o.className + " " + c).replace(/\s+/g, " ").replace(/(^ | $)/g, "")
+        }
+
+        function removeClass(o, c) {
+            var re = new RegExp("(^|\\s)" + c + "(\\s|$)", "g")
+            o.className = o.className.replace(re, "$1").replace(/\s+/g, " ").replace(/(^ | $)/g, "")
+        }
+    </script>
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+        }
+    </script>
+
+
 
 </body>
 
