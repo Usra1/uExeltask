@@ -32,9 +32,15 @@
 }
 
 .owl-carousel .owl-stage-outer {
-    position: relative;
+    /* position: relative;
     overflow: hidden;
-    -webkit-transform: translate3d(0, 0, 0)
+    -webkit-transform: translate3d(0, 0, 0) */
+    position: absolute;
+    overflow: hidden;
+    top: -130px;
+    bottom: -301px;
+    left: 20px;
+    right: 20px;
 }
 
 .owl-carousel .owl-item, .owl-carousel .owl-wrapper {
