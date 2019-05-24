@@ -1,4 +1,5 @@
 /* Navigation Bar */
+
 .container-fluid {
     background-color: #47a0fa;
     color: #fff;
@@ -8,6 +9,10 @@
 #navbar-li {
     color: #fff;
     background-color: blue;
+}
+
+#icon-bar {
+    display: none;
 }
 
 #img-header {
@@ -38,7 +43,7 @@
 
 #diagl {
     background-image: url(../images/background1.png);
-    width: 100%;
+    min-width: 100%;
     height: 500px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -52,6 +57,7 @@
     font-size: 35px;
     margin-top: 80px;
     margin-left: 110px;
+    margin-right: 10px;
 }
 
 #header-p {
@@ -208,7 +214,7 @@
     border-right: 1px solid #ededed;
     padding-left: 100px;
     min-height: 150px;
-} 
+}
 
 #column-services:hover {
     box-shadow: 5px 5px 5px 5px#ededed;
@@ -300,6 +306,7 @@
     width: 15px;
     height: 15px;
 } */
+
 .slider {
     display: none;
     background-position: relative;
@@ -596,7 +603,7 @@
 .next {
     /* margin-left: 100px; */
     position: absolute;
-    right: 5px;
+    right: 75px;
     /* border-radius: 1px 0 0 1px; */
 }
 
@@ -635,17 +642,17 @@ q {
 }
 
 #contact-form {
-    width: 40%;
+    min-width: 40%;
     float: left;
     margin-top: 40px;
     line-height: 4;
     margin-left: 60px;
+    align-content: center;
 }
 
-.contact-image {
-    width: 40%;
-    float: right;
-    margin-right: 60px;
+#contact-image {
+    margin-left: 70px;
+    float: left;
 }
 
 input[type=text], input[type=email] {
@@ -683,7 +690,7 @@ input[type=submit] {
     border: none;
     border-radius: 7px;
     cursor: pointer;
-    margin-right: 240px;
+    margin-right: 370px;
 }
 
 input[type=submit]:hover {
@@ -695,12 +702,15 @@ input[type=submit]:hover {
 /* FOOTER AREA */
 
 #footer {
-    height: 500px;
+    min-height: 500px;
     background: #180e29;
     color: white;
     margin-top: 200px;
     font-family: 'Poppins', sans-serif;
     text-align: center;
+    float: left;
+    width: 100%;
+    margin-left: -3px;
 }
 
 #footer-image {
@@ -710,8 +720,8 @@ input[type=submit]:hover {
 #col-info {
     margin-top: 90px;
     line-height: 2;
-    width: 20%;
-    margin-left: -30px;
+    min-width: 20%;
+    margin-left: -50px;
 }
 
 #footer-h2 {
@@ -740,7 +750,8 @@ input[type=submit]:hover {
 
 .menu-a {
     text-decoration-line: none;
-    color: white;
+    color: #e2e2e2;
+    ;
     text-align: center;
 }
 
@@ -773,10 +784,10 @@ input[type=submit]:hover {
     padding: 18px 40px;
     font-size: 18px;
     border-radius: 0px 4px 4px 0px;
-    width: 15%;
+    min-width: 15%;
     position: absolute;
     top: 0px;
-    right: -50px;
+    right: 0px;
 }
 
 /* COPYRIGHT AREA */
@@ -797,14 +808,13 @@ input[type=submit]:hover {
     color: #ddd;
 }
 
-
 /**
  * Owl Carousel v2.3.4
  * Copyright 2013-2018 David Deutsch
  * Licensed under: SEE LICENSE IN https://github.com/OwlCarousel2/OwlCarousel2/blob/master/LICENSE
  */
 
- .owl-theme .owl-dots, .owl-theme .owl-nav {
+.owl-theme .owl-dots, .owl-theme .owl-nav {
     text-align: center;
     -webkit-tap-highlight-color: transparent
 }
@@ -845,7 +855,6 @@ input[type=submit]:hover {
     margin-top: 221px;
 }
 
-
 .owl-theme .owl-dots .owl-dot span {
     width: 10px;
     height: 10px;
@@ -861,3 +870,178 @@ input[type=submit]:hover {
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
     background: #08b87a
 }
+
+/* Responsive Css */
+
+@media only screen and (max-width:767px) {
+    #img-header {
+        margin-left: 0;
+    }
+    /* .navbar-nav {
+        opacity: 0;
+    } */
+    .navbar-fixed-top {
+        position: relative;
+    }
+    .navbar-nav {
+        background-color: #47a0fa;
+    }
+    #icon-bar {
+        display: block;
+        position: absolute;
+        right: 30px;
+        top: 10px;
+        color: white;
+        font-size: 60px;
+    }
+    .navbar-nav .responsive {
+        position: relative;
+        text-decoration: none;
+    }
+    ul#myTopnav.navbar-nav.responsive {
+        text-decoration: none;
+        color: white;
+    }
+    #header-button {
+        display: none;
+    }
+    li#header-li.navbar-nav.responsive {
+        background-color: #47a0fa;
+        color: white;
+    }
+    .navbar-nav {
+        display: none;
+    }
+    .show-nav {
+        display: block;
+    }
+    #header-h1 {
+        text-align: left;
+        font-size: 20px;
+        margin-left: 10px;
+    }
+    #header-p {
+        text-align: left;
+        font-size: 15px;
+        margin-left: 10px;
+    }
+    #header-button2 {
+        padding: 15px 12px;
+        margin-right: 10px;
+        margin-left: 0px;
+        margin-top: -10px
+    }
+    #header-button3 {
+        padding: 15px 12px;
+    }
+    #img-header2 {
+        display: none;
+    }
+    #about {
+        margin-left: 0;
+    }
+    #img-about2 {
+        width: 100%;
+        margin-top: -110px;
+    }
+    #about-h3-2 {
+        font-size: 25px;
+        text-align: center;
+    }
+    #about-p2 {
+        text-align: center;
+    }
+    #btn-about {
+        width: 120px;
+        margin-left: 50px;
+    }
+    #services-h1 {
+        text-align: center;
+    }
+    #column-services{
+        padding-left: 10px;
+        min-height: 250px;
+        min-width: 100%;
+    }
+    #icon-services{
+        padding: 40px;
+        margin-top: 20px;
+        margin-left: 90px
+    }
+    #row-service-2 {
+        margin-right: 5px;
+    }
+    #icon-services {
+        margin-left: 35px;
+    }
+    #services-h3{
+        padding-left: 0px;
+        padding-top: 120px
+    }
+    #services-p{
+        font-size: 12px;
+        padding-left: 0px;
+        text-align: left;
+    }
+    #col-showcase{
+        min-height: 310px;
+    }
+    #showcase-h1{
+        padding-top: 70px;
+    }
+    .owl-theme .owl-dots .owl-dot{
+        margin-top: 141px;
+    }
+    #price-outer-div{
+        margin-left: 0;
+        min-height: 460px;
+    }
+
+    q{
+        line-height: 5px;
+        font-size: 24px;
+    }
+    .video-slider{
+        width: 90%;
+        height: 480px;
+        margin-top: 120px;
+        margin-left: 20px;
+    }
+    .next{
+        right: 275px;
+    }
+    .prev, .next{
+        margin-top: -240px;
+        margin-left: 265px;
+    }
+    #contact-form{
+        float: none;
+        margin-right: 20px;
+        margin-left: -10px;
+    }
+    #textarea-class{
+        margin-left: 50px;
+    }
+    textarea{
+        width: 100%;
+        padding: 0px 20px 40px 10px;
+    }
+    input[type=submit] {
+        margin-left: 120px;
+        padding: 2px 30px;
+    }
+    #contact-image{
+        margin-left: 0;
+    width: 100%;
+    margin-top: 20px;
+    }
+    #copyright{
+        margin-top: 1460px;
+    }
+
+
+
+
+}
+
+
